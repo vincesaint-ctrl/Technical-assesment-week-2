@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    min-height: 100vh;
+    margin:0;
+    display: grid;
+    color: white;
+    font-family: [inter] sans-serif;
+    place-items: center;
+    background-color: rgb(54, 44, 44);
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.profile-card{
+    border-radius: 12px;
+    padding: 30px;
+    text-align: center;
+    background-color: black
+    width: 300px;
+}
+h1{
+    margin: 24px 0;
+    Family: [Inter](https://fonts.google.com/specimen/Inter);
+}
+
+h2{
+    color: chartreuse;
+}
+
+.profile-card > ul{
+    list-style: none;
+    padding: 0;
+    margin: 24px;
+}
+
+profile-card > ul > li{
+    list-style: none;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #1f1f1f;
+    border: 1px solid #3a3a3a;
+
+}
+
+
+body {
+    background-color: #000;
+}
+
+.profile-card {
+    background-color: #1f1f1f;
+    border: 1px solid #3a3a3a;
+}
+
+
+.profile-card  nav {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+}
+.profile-card nav a{
+    background-color: rgb(51,51,51);
+    color: white;
+    text-decoration: none;
+    padding: 16px;
+    border-radius: 8px;
+    font-weight: 700;
+}
+
+.profile-card > nav > a:hover{
+    background-color: rgb(38, 151, 38);
+    color: rgb(22, 22, 22);
+}
+    
+
